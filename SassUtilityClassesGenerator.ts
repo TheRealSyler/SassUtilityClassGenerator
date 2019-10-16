@@ -7,7 +7,7 @@ const MPData = {
   padding: lrbt
 };
 
-const steps = [0, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+const steps = [0, 0.05, 0.1, 0.2, 0.25, 0.5, 0.75, 1, 1.5, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 let res = '';
 let doc = `
 |Name                    |Description                                                                                     |
