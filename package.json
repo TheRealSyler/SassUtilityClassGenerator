@@ -1,0 +1,13 @@
+{
+  "name": "sass-utility-classes-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "SassUtilityClassesGenerator.ts",
+  "author": "Syler",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^12.11.1",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
+  }
+}
