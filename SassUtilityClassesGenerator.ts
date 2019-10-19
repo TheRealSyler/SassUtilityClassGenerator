@@ -68,9 +68,58 @@ function GeneratePos() {
   }
 }
 
+const cursorData = [
+  'auto',
+  'default',
+  'none',
+  'context-menu',
+  'help',
+  'pointer',
+  'progress',
+  'wait',
+  'cell',
+  'crosshair',
+  'text',
+  'vertical-text',
+  'alias',
+  'copy',
+  'move',
+  'no-drop',
+  'not-allowed',
+  'e-resize',
+  'n-resize',
+  'ne-resize',
+  'nw-resize',
+  's-resize',
+  'se-resize',
+  'sw-resize',
+  'w-resize',
+  'ew-resize',
+  'ns-resize',
+  'nesw-resize',
+  'nwse-resize',
+  'col-resize',
+  'row-resize',
+  'all-scroll',
+  'zoom-in',
+  'zoom-out',
+  'grab',
+  'grabbing'
+];
+
+function GenerateCursor() {
+  for (const value of cursorData) {
+    AddToDoc(`cursor-${value}`, 'cursor', value);
+    res += `.cursor-${value}
+  cursor: ${value} !important
+`;
+  }
+}
+
 GenerateMP();
 GenerateFlex();
 GeneratePos();
+GenerateCursor();
 
 function AddToDoc(name: string, prop: string, value: string) {
   const desc = `Sets the \`${prop}\` property to \`${value}\``;
