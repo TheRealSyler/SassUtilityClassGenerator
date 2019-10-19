@@ -41,6 +41,7 @@ const flexValues = [
   ['start', 'flex-start'],
   ['end', 'flex-end']
 ];
+const flexDirs = ['row', 'row-reverse', 'column', 'column-reverse'];
 
 function GenerateFlex() {
   res += `.flex
@@ -54,6 +55,12 @@ function GenerateFlex() {
   ${prop[1]}: ${value[1]} !important
 `;
     }
+  }
+  for (const dir of flexDirs) {
+    AddToDoc(`flex-dir-${dir}`, 'flex-direction', dir);
+    res += `.flex-dir-${dir}
+  flex-direction: ${dir} !important
+`;
   }
 }
 

@@ -206,6 +206,10 @@
 |flex-ji-stretch         |Sets the `justify-items` property to `stretch`                                                  |
 |flex-ji-start           |Sets the `justify-items` property to `flex-start`                                               |
 |flex-ji-end             |Sets the `justify-items` property to `flex-end`                                                 |
+|flex-dir-row            |Sets the `flex-direction` property to `row`                                                     |
+|flex-dir-row-reverse    |Sets the `flex-direction` property to `row-reverse`                                             |
+|flex-dir-column         |Sets the `flex-direction` property to `column`                                                  |
+|flex-dir-column-reverse |Sets the `flex-direction` property to `column-reverse`                                          |
 |pos-a                   |Sets the `position` property to `absolute`                                                      |
 |pos-f                   |Sets the `position` property to `fixed`                                                         |
 |pos-r                   |Sets the `position` property to `relative`                                                      |
