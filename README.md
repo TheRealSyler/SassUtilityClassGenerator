@@ -11,6 +11,7 @@
 |pr0                     |Sets the `padding-right` property to `0rem`                                                     |
 |pt0                     |Sets the `padding-top` property to `0rem`                                                       |
 |pb0                     |Sets the `padding-bottom` property to `0rem`                                                    |
+|b0                      |Sets the `border-radius` property to `0rem`                                                     |
 |m-05                    |Sets the `margin` property to `0.05rem`                                                         |
 |ml-05                   |Sets the `margin-left` property to `0.05rem`                                                    |
 |mr-05                   |Sets the `margin-right` property to `0.05rem`                                                   |
@@ -21,6 +22,7 @@
 |pr-05                   |Sets the `padding-right` property to `0.05rem`                                                  |
 |pt-05                   |Sets the `padding-top` property to `0.05rem`                                                    |
 |pb-05                   |Sets the `padding-bottom` property to `0.05rem`                                                 |
+|b-05                    |Sets the `border-radius` property to `0.05rem`                                                  |
 |m-1                     |Sets the `margin` property to `0.1rem`                                                          |
 |ml-1                    |Sets the `margin-left` property to `0.1rem`                                                     |
 |mr-1                    |Sets the `margin-right` property to `0.1rem`                                                    |
@@ -31,6 +33,7 @@
 |pr-1                    |Sets the `padding-right` property to `0.1rem`                                                   |
 |pt-1                    |Sets the `padding-top` property to `0.1rem`                                                     |
 |pb-1                    |Sets the `padding-bottom` property to `0.1rem`                                                  |
+|b-1                     |Sets the `border-radius` property to `0.1rem`                                                   |
 |m-2                     |Sets the `margin` property to `0.2rem`                                                          |
 |ml-2                    |Sets the `margin-left` property to `0.2rem`                                                     |
 |mr-2                    |Sets the `margin-right` property to `0.2rem`                                                    |
@@ -41,6 +44,7 @@
 |pr-2                    |Sets the `padding-right` property to `0.2rem`                                                   |
 |pt-2                    |Sets the `padding-top` property to `0.2rem`                                                     |
 |pb-2                    |Sets the `padding-bottom` property to `0.2rem`                                                  |
+|b-2                     |Sets the `border-radius` property to `0.2rem`                                                   |
 |m-25                    |Sets the `margin` property to `0.25rem`                                                         |
 |ml-25                   |Sets the `margin-left` property to `0.25rem`                                                    |
 |mr-25                   |Sets the `margin-right` property to `0.25rem`                                                   |
@@ -51,6 +55,7 @@
 |pr-25                   |Sets the `padding-right` property to `0.25rem`                                                  |
 |pt-25                   |Sets the `padding-top` property to `0.25rem`                                                    |
 |pb-25                   |Sets the `padding-bottom` property to `0.25rem`                                                 |
+|b-25                    |Sets the `border-radius` property to `0.25rem`                                                  |
 |m-5                     |Sets the `margin` property to `0.5rem`                                                          |
 |ml-5                    |Sets the `margin-left` property to `0.5rem`                                                     |
 |mr-5                    |Sets the `margin-right` property to `0.5rem`                                                    |
@@ -61,6 +66,7 @@
 |pr-5                    |Sets the `padding-right` property to `0.5rem`                                                   |
 |pt-5                    |Sets the `padding-top` property to `0.5rem`                                                     |
 |pb-5                    |Sets the `padding-bottom` property to `0.5rem`                                                  |
+|b-5                     |Sets the `border-radius` property to `0.5rem`                                                   |
 |m-75                    |Sets the `margin` property to `0.75rem`                                                         |
 |ml-75                   |Sets the `margin-left` property to `0.75rem`                                                    |
 |mr-75                   |Sets the `margin-right` property to `0.75rem`                                                   |
@@ -71,6 +77,7 @@
 |pr-75                   |Sets the `padding-right` property to `0.75rem`                                                  |
 |pt-75                   |Sets the `padding-top` property to `0.75rem`                                                    |
 |pb-75                   |Sets the `padding-bottom` property to `0.75rem`                                                 |
+|b-75                    |Sets the `border-radius` property to `0.75rem`                                                  |
 |m1                      |Sets the `margin` property to `1rem`                                                            |
 |ml1                     |Sets the `margin-left` property to `1rem`                                                       |
 |mr1                     |Sets the `margin-right` property to `1rem`                                                      |
@@ -81,6 +88,7 @@
 |pr1                     |Sets the `padding-right` property to `1rem`                                                     |
 |pt1                     |Sets the `padding-top` property to `1rem`                                                       |
 |pb1                     |Sets the `padding-bottom` property to `1rem`                                                    |
+|b1                      |Sets the `border-radius` property to `1rem`                                                     |
 |m1.5                    |Sets the `margin` property to `1.5rem`                                                          |
 |ml1.5                   |Sets the `margin-left` property to `1.5rem`                                                     |
 |mr1.5                   |Sets the `margin-right` property to `1.5rem`                                                    |
@@ -91,6 +99,7 @@
 |pr1.5                   |Sets the `padding-right` property to `1.5rem`                                                   |
 |pt1.5                   |Sets the `padding-top` property to `1.5rem`                                                     |
 |pb1.5                   |Sets the `padding-bottom` property to `1.5rem`                                                  |
+|b1.5                    |Sets the `border-radius` property to `1.5rem`                                                   |
 |m2                      |Sets the `margin` property to `2rem`                                                            |
 |ml2                     |Sets the `margin-left` property to `2rem`                                                       |
 |mr2                     |Sets the `margin-right` property to `2rem`                                                      |
@@ -101,6 +110,7 @@
 |pr2                     |Sets the `padding-right` property to `2rem`                                                     |
 |pt2                     |Sets the `padding-top` property to `2rem`                                                       |
 |pb2                     |Sets the `padding-bottom` property to `2rem`                                                    |
+|b2                      |Sets the `border-radius` property to `2rem`                                                     |
 |m3                      |Sets the `margin` property to `3rem`                                                            |
 |ml3                     |Sets the `margin-left` property to `3rem`                                                       |
 |mr3                     |Sets the `margin-right` property to `3rem`                                                      |
@@ -111,6 +121,7 @@
 |pr3                     |Sets the `padding-right` property to `3rem`                                                     |
 |pt3                     |Sets the `padding-top` property to `3rem`                                                       |
 |pb3                     |Sets the `padding-bottom` property to `3rem`                                                    |
+|b3                      |Sets the `border-radius` property to `3rem`                                                     |
 |m4                      |Sets the `margin` property to `4rem`                                                            |
 |ml4                     |Sets the `margin-left` property to `4rem`                                                       |
 |mr4                     |Sets the `margin-right` property to `4rem`                                                      |
@@ -121,6 +132,7 @@
 |pr4                     |Sets the `padding-right` property to `4rem`                                                     |
 |pt4                     |Sets the `padding-top` property to `4rem`                                                       |
 |pb4                     |Sets the `padding-bottom` property to `4rem`                                                    |
+|b4                      |Sets the `border-radius` property to `4rem`                                                     |
 |m5                      |Sets the `margin` property to `5rem`                                                            |
 |ml5                     |Sets the `margin-left` property to `5rem`                                                       |
 |mr5                     |Sets the `margin-right` property to `5rem`                                                      |
@@ -131,6 +143,7 @@
 |pr5                     |Sets the `padding-right` property to `5rem`                                                     |
 |pt5                     |Sets the `padding-top` property to `5rem`                                                       |
 |pb5                     |Sets the `padding-bottom` property to `5rem`                                                    |
+|b5                      |Sets the `border-radius` property to `5rem`                                                     |
 |m6                      |Sets the `margin` property to `6rem`                                                            |
 |ml6                     |Sets the `margin-left` property to `6rem`                                                       |
 |mr6                     |Sets the `margin-right` property to `6rem`                                                      |
@@ -141,6 +154,7 @@
 |pr6                     |Sets the `padding-right` property to `6rem`                                                     |
 |pt6                     |Sets the `padding-top` property to `6rem`                                                       |
 |pb6                     |Sets the `padding-bottom` property to `6rem`                                                    |
+|b6                      |Sets the `border-radius` property to `6rem`                                                     |
 |m7                      |Sets the `margin` property to `7rem`                                                            |
 |ml7                     |Sets the `margin-left` property to `7rem`                                                       |
 |mr7                     |Sets the `margin-right` property to `7rem`                                                      |
@@ -151,6 +165,7 @@
 |pr7                     |Sets the `padding-right` property to `7rem`                                                     |
 |pt7                     |Sets the `padding-top` property to `7rem`                                                       |
 |pb7                     |Sets the `padding-bottom` property to `7rem`                                                    |
+|b7                      |Sets the `border-radius` property to `7rem`                                                     |
 |m8                      |Sets the `margin` property to `8rem`                                                            |
 |ml8                     |Sets the `margin-left` property to `8rem`                                                       |
 |mr8                     |Sets the `margin-right` property to `8rem`                                                      |
@@ -161,6 +176,7 @@
 |pr8                     |Sets the `padding-right` property to `8rem`                                                     |
 |pt8                     |Sets the `padding-top` property to `8rem`                                                       |
 |pb8                     |Sets the `padding-bottom` property to `8rem`                                                    |
+|b8                      |Sets the `border-radius` property to `8rem`                                                     |
 |m9                      |Sets the `margin` property to `9rem`                                                            |
 |ml9                     |Sets the `margin-left` property to `9rem`                                                       |
 |mr9                     |Sets the `margin-right` property to `9rem`                                                      |
@@ -171,6 +187,7 @@
 |pr9                     |Sets the `padding-right` property to `9rem`                                                     |
 |pt9                     |Sets the `padding-top` property to `9rem`                                                       |
 |pb9                     |Sets the `padding-bottom` property to `9rem`                                                    |
+|b9                      |Sets the `border-radius` property to `9rem`                                                     |
 |m10                     |Sets the `margin` property to `10rem`                                                           |
 |ml10                    |Sets the `margin-left` property to `10rem`                                                      |
 |mr10                    |Sets the `margin-right` property to `10rem`                                                     |
@@ -181,6 +198,7 @@
 |pr10                    |Sets the `padding-right` property to `10rem`                                                    |
 |pt10                    |Sets the `padding-top` property to `10rem`                                                      |
 |pb10                    |Sets the `padding-bottom` property to `10rem`                                                   |
+|b10                     |Sets the `border-radius` property to `10rem`                                                    |
 |flex                    |Sets the `display` property to `flex`                                                           |
 |flex-jc-center          |Sets the `justify-content` property to `center`                                                 |
 |flex-jc-between         |Sets the `justify-content` property to `space-between`                                          |
