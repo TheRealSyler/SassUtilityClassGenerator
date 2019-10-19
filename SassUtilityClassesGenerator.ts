@@ -64,7 +64,7 @@ function GenerateFlex() {
   }
 }
 
-const posData = ['absolute', 'fixed', 'relative', 'none'];
+const posData = ['absolute', 'fixed', 'relative'];
 
 function GeneratePos() {
   for (const value of posData) {

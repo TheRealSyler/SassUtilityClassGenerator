@@ -213,7 +213,6 @@
 |pos-a                   |Sets the `position` property to `absolute`                                                      |
 |pos-f                   |Sets the `position` property to `fixed`                                                         |
 |pos-r                   |Sets the `position` property to `relative`                                                      |
-|pos-n                   |Sets the `position` property to `none`                                                          |
 |cursor-auto             |Sets the `cursor` property to `auto`                                                            |
 |cursor-default          |Sets the `cursor` property to `default`                                                         |
 |cursor-none             |Sets the `cursor` property to `none`                                                            |
