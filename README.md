@@ -321,3 +321,7 @@
 |width125percent         |Sets the `width` property to `125%`                                                             |
 |width150percent         |Sets the `width` property to `150%`                                                             |
 |width200percent         |Sets the `width` property to `200%`                                                             |
+|overflow-v              |Sets the `overflow` property to `visible`                                                       |
+|overflow-h              |Sets the `overflow` property to `hidden`                                                        |
+|overflow-s              |Sets the `overflow` property to `scroll`                                                        |
+|overflow-a              |Sets the `overflow` property to `auto`                                                          |

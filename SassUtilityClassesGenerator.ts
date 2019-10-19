@@ -150,12 +150,23 @@ function GenerateSizeStuff() {
     }
   }
 }
+const overflowData = ['visible', 'hidden', 'scroll', 'auto'];
+
+function GenerateOverflow() {
+  for (const type of overflowData) {
+    AddToDoc(`overflow-${type[0]}`, 'overflow', type);
+    res += `.overflow-${type[0]}
+  overflow: ${type} !important
+`;
+  }
+}
 
 GenerateMP();
 GenerateFlex();
 GeneratePos();
 GenerateCursor();
 GenerateSizeStuff();
+GenerateOverflow();
 
 function AddToDoc(name: string, prop: string, value: string) {
   const desc = `Sets the \`${prop}\` property to \`${value}\``;
