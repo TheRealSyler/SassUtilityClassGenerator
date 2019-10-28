@@ -160,6 +160,37 @@ function GenerateOverflow() {
 `;
   }
 }
+// don't add flex, its already handled by GenerateFlex, grid will be handled by its own func.
+const displayData = [
+  'none',
+  'inline',
+  'inline-block',
+  'block',
+  'contents',
+  'flow-root',
+  'inline-flex',
+  'inline-flexbox',
+  'flexbox',
+  'inline-table',
+  'list-item',
+  'table',
+  'table-caption',
+  'table-cell',
+  'table-column',
+  'table-column-group',
+  'table-footer-group',
+  'table-header-group',
+  'table-row',
+  'table-row-group'
+];
+function GenerateDisplay() {
+  for (const type of displayData) {
+    AddToDoc(`d-${type}`, 'display', type);
+    res += `.d-${type}
+  display: ${type} !important
+`;
+  }
+}
 
 GenerateMP();
 GenerateFlex();
@@ -167,6 +198,7 @@ GeneratePos();
 GenerateCursor();
 GenerateSizeStuff();
 GenerateOverflow();
+GenerateDisplay();
 
 function AddToDoc(name: string, prop: string, value: string) {
   const desc = `Sets the \`${prop}\` property to \`${value}\``;
