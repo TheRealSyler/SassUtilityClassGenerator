@@ -207,7 +207,7 @@ function AddToDoc(name: string, prop: string, value: string) {
 }
 
 function GetStep(step: number) {
-  return step.toString().replace(/0\./, '-');
+  return step.toString().replace(/0?\./g, '-');
 }
 
 writeFileSync('./utils.sass', res);
